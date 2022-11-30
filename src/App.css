@@ -1,0 +1,55 @@
+
+.App {
+  
+  text-align: center;
+}
+
+/* .genre{
+  
+  border: 2px solid wheat;
+} */
+.genre button{
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
+  padding: 10px 25px;
+  
+}
+.btn-bg{
+  background-color: rgb(155, 155, 201);
+}
+.active{
+  background-color: aquamarine;
+  color: black;
+}
+.genre button:hover{
+  background-color: aquamarine;
+  color: black;
+  transition: 0.7s;
+}
+.movies{
+  padding: 15px 10px;
+  
+}
+.movie-items{
+  margin: auto auto;
+  margin-top: 30px ;
+  border: 2px solid white;
+  width: 20rem;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
